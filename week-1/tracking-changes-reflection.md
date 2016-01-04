@@ -3,7 +3,7 @@ It makes it easier to see what happened to either make your code work or not wor
 What is a commit?
 A commit is you making a save file of whatever your working on. It allows you go have a place to fall back to if you have problems with your code.
 What are the best practices for commit messages?
-You want to write in the imperative so you that it is similiar to how we use git in our coding. You want people to see what your commit will do rather than explain to them what you did.
+You want to write in the imperative so you that it is similiar to how we use git in our coding. You want people to see what your commit will do rather than explain to them what you did. You should capitalize the first letter of a commit and try to make the message less than 50 characters.
 What does the HEAD^ argument mean?
 It is used to get rid of any changes you've made that you haven't commited.
 What are the 3 stages of a git change and how do you move a file from one stage to the other?
