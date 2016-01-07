@@ -1,4 +1,4 @@
-![Site Map](/phase-0/week-2/imgs/site-map.jpg)
+![Site Map](/KyleRombach/phase-0/blob/master/phase-0/week-2/imgs/site-map.jpg)
 
 1. - What are the 6 Phases of Web Design?
 
