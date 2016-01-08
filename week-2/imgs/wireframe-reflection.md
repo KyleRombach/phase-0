@@ -1,4 +1,4 @@
-1. - What is a wireframe?
+31. - What is a wireframe?
 
 A wireframe is basically a blueprint for a website. It let's you lay the ground work to see how you want your website to look and be interacted with.
 
