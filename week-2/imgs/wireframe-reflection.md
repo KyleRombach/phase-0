@@ -25,3 +25,6 @@ helped with finding some good ideas.
 6. - Which parts of the challenge did you enjoy and which parts did you find tedious?
 
 I thought it was all fun and with [Cacoo](https://cacoo.com/getstarted/) it made it so much easier. Since I liked my index page, I was able to copy the basic layout, and edit it to fit my blog index page needs as well.
+
+![Wireframe Index](wireframe-index.png)
+![Wireframe Index Blog](wireframe-blog-index.png)
