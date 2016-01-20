@@ -1,0 +1,38 @@
+header {
+  margin-top: 0px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: blue;
+  color: white;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  box-sizing: border-box;
+  width: 50%;
+}
+details {
+  background-color: grey;
+}
+details > p {
+  background-color: #F5F5F5;
+}
+
+.column-1 {
+  padding-left: 5%;
+  float: left;
+}
+.column-2 {
+  padding-right: 5%;
+  float: right;
+}
+footer {
+  clear: both;
+  margin: 5%;
+  text-align: center;
+  padding-top: 10px;
+}
