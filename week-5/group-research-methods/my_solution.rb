@@ -55,7 +55,7 @@ def my_array_deletion_method!(source, thing_to_delete)
 end
 
 def my_hash_deletion_method!(source, thing_to_delete)
-  source.delete_if { |name, age| name.include?(thing_to_delete)}
+  source.delete_if { |name, age| name == thing_to_delete}
 end
 
 # Identify and describe the Ruby method(s) you implemented.
