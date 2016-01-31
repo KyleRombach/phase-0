@@ -50,27 +50,18 @@ end
 
 
 # Person 4
-def my_array_deletion_method!(i_want_pets, a)
- i_want_pets.each do |x|
-  if x.include? "a" then i_want_pets.delete(x)
-  end
-end
+def my_array_deletion_method!(source, thing_to_delete)
+  source.delete_if { |x| x.to_s.include?(thing_to_delete)}
 end
 
-
-
-
-def my_hash_deletion_method!(my_family_pets_ages, name)
-  my_family_pets_ages.each do |name, age|
-    if name = "George" then my_family_pets_ages.delete(name)
-    end
-  end
+def my_hash_deletion_method!(source, thing_to_delete)
+  source.delete_if { |name, age| name.include?(thing_to_delete)}
 end
 
-# Identify and describe the Ruby method(s) you implemented
-# I used the each method so every element would be tested.
-# I used the .include? method to find the strings that contained the letter a.
-# I used the .delete method to delete the element based on what I wanted to get rid of.
+# Identify and describe the Ruby method(s) you implemented.
+# I used the delete if method to delete based on set parameter.
+# I used the include method to check if object is inside the element chosen.
+#
 
 
 # Person 5
