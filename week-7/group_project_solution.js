@@ -78,53 +78,70 @@
 __________________________________________________________
 //Part 3
 
-function sum(array)
-{
-  var count = 0;
-}
-  if (array.length % 2 != 0) {
-    for (idx = 0; idx < array.length - 1;  idx + 1)
-      if array[idx] % 2 = 0;
-      count += array[idx];
-      }
-else {
-  for (idx = 0; idx < array.length - 1; idx + 1)
-    if array[index] % 2 != 1;
-      count += arr[idx];
-    }
-console.log(count)
 
-function mean(array)
-{
+function sum(array) {
+
+  var count = 0;
+
+  if (array.length % 2 != 0) {
+    for (var i = 0; i < array.length - 1; i++) {
+      if (i % 2 == 0)
+     {
+       count += i;
+     }
+         }
+                              }
+      else {
+  for (var i = 0; i < array.length - 1; i++) {
+    if (i % 2 != 0)
+    {
+      count += i;
+    }
+    }
+      return count;}
+}
+
+function mean(array) {
   var count = 0;
   var elements_counted = 0;
-}
-    if (array.length % 2 != 0) {
-    for (idx = 0; idx < array.length - 1; idx + 1)
-      if array[idx] % 2 = 0;
-      count += array[idx];
-      elements_counted += 1;
-      }
-else {
-  for (idx = 0; idx < array.length - 1; idx + 1)
-    if array[idx] % 2 != 1;
-      count += array[idx];
-      elements_counted += 1;
-  console.log(count/elements_counted)
 
-  function median(array)
-  {
-    elements = []
-  }
-  if (elements.length % 2 != 0) {
-    for (idx = 0; idx < array.length - 1; idx + 1)
-      if array[idx] % 2 = 0;
-      elements.push(array[idx];)
+    if (array.length % 2 != 0) {
+    for (var i = 0; i < array.length - 1; i++) {
+      if (i % 2 == 0)
+      {
+      count += i;
+      elements_counted += 1;
       }
-  else {
-  for (idx = 0; idx < array.length - 1; idx] + 1)
-    if array[idx] % 2 != 1;
-      elements.push(array[idx];)
+    }
+    }
+      else {
+        for (var i = 0; i < array.length - 1; i++) {
+      if (i % 2 != 0)
+        {
+        count += i;
+        elements_counted += 1;
+        }
+        }
+   return count/elements_counted;}
+}
+  function median(array){
+    elements = [];
+
+  if (elements.length % 2 != 0) {
+    for (var i = 0; i < array.length - 1; i++) {
+      if (i % 2 == 0)
+        {
+      elements.push(i);
+        }
+    }
   }
-  var middle = elements.length / 2
-  console.log(elements[middle])
+  else {
+  for (var i = 0; i < array.length - 1; i++) {
+    if (i % 2 != 1)
+    {
+      elements.push(i);
+      var middle = elements.length / 2;
+  }
+  }
+  return elements[middle];}
+  }
