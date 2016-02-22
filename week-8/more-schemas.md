@@ -1,7 +1,7 @@
 
-![one to one](/imgs/one_to_one.png)
+![one to one](imgs/one_to_one.png)
 
-![many to many](/imgs/many_to_many.png)
+![many to many](imgs/many_to_many.png)
 
 
 
