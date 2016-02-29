@@ -66,13 +66,16 @@ list.delete_item("apples")
 list.update_list('oranges', 20)
 list.print_list(groceryList)
 
-/* Reflection */
+// /* Reflection */
 
-What concepts did you solidify in working on this challenge? (reviewing the passing of information, objects, constructors, etc.)
+// // What concepts did you solidify in working on this challenge? (reviewing the passing of information, objects, constructors, etc.)
 
-It helped me with using constructors and how to use this.
+// // It helped me with using constructors and how to use this.
 
-What was the most difficult part of this challenge?
+// What was the most difficult part of this challenge?
 
+// Just making sure I have my syntax right.
 
-Did an array or object make more sense to use and why?
+// Did an array or object make more sense to use and why?
+
+// An object because I needed an item and then a quantity  that's assigned to that item.
